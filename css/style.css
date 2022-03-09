@@ -1,6 +1,6 @@
 /* new */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nunito&family=Roboto:ital,wght@0,100;0,300;1,100&family=Smooch+Sans:wght@100&display=swap");
 .hidden {
   display: none;
 }
@@ -25,9 +25,9 @@
 #quote {
   font-style: italic;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   text-shadow: 2px 2px 2px grey;
-  width: 800px;
+  width: 850px;
   height: 60px;
   display: flex;
   flex-direction: column;
@@ -42,6 +42,7 @@
 
 #quote span:last-child {
   font-size: 15px;
+  margin-top: 3px;
 }
 
 #main-screen {
@@ -55,6 +56,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 #date {
   color: white;
@@ -83,14 +85,17 @@
 }
 #login-form input:focus {
   color: wheat;
-  outline: ;
 }
 
 #clock {
-  color: white;
   margin: 0;
   font-size: 120px;
   font-family: "Roboto", sans-serif;
+  transition: color 0.5s ease-in-out;
+}
+
+.clockColor {
+  color: #19a4cf;
 }
 
 #greeting {
@@ -98,7 +103,7 @@
   margin: 20px 0;
   font-size: 100px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 #weather {
@@ -183,8 +188,9 @@
   margin-right: 30px;
   border: none;
 } */
-#todo-list li i {
-  color: blanchedalmond;
+#todo-list li img {
+  width: 35px;
+  height: 35px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -219,7 +225,7 @@
 
 #main-box3 .title__img {
   display: block;
-  padding: 16px;
+  padding: 14px;
   width: 70px;
   height: 70px;
   box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px 0px;

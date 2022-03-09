@@ -25,13 +25,13 @@ function paintToDo(newTodo){
     span.innerText=newTodo.text;
     // const button=document.createElement("button");
     // button.innerText="❌";
-    const icon=document.createElement("i");
-    icon.setAttribute("class","fa-solid fa-trash-can");
+    const img=document.createElement("img");
+    img.setAttribute("src","https://ww.namu.la/s/a106986ea5c7f7a5342f44137d48991fc3feb76709fa5830e7898a5863222765dc113c5ae42dbe9b2ec32e775dccc347cfc6b6abd9101d4d2566bdb658cef7940a5c1d64ae19d8c032c3e2c62dd31b27");
     // button.addEventListener("click",deleteToDo);
-    icon.addEventListener("click",deleteToDo);
+    img.addEventListener("click",deleteToDo);
     li.appendChild(span);
     // li.appendChild(button);
-    li.appendChild(icon);
+    li.appendChild(img);
     toDoList.appendChild(li);
 }
 

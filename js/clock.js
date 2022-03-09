@@ -13,3 +13,9 @@ function getClock(){
 getClock();
 setInterval(getClock,1000);
 
+function handleClockColor(){
+    clock.classList.toggle("clockColor");
+}
+
+clock.addEventListener("click",handleClockColor);
+
