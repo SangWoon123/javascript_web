@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Redressed&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/adc2ce31fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+<main class="content">
+
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+   
+    <div id="main-screen">
+        <div id="main-box1">
+            <h2 id="date">0000-00-00</h2>
+            <h2 id="clock">00:00:00</h2>
+
+            <form class="hidden" id="login-form">
+                <input required maxlength="15" type="text" placeholder="What is your name?">
+                <input type="submit" value="Log In">
+            </form>
+
+            <h1 id="greeting" class="hidden"></h1>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="main-screen2">
+            
+        </div>
+        <div id="main-box2">
+            <div class="todolist">
+                <form id="todo-form">
+                    <input type="text" placeholder=" Write a To Do and Press Enter" required>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+        <div id="main-box3">
+            <ul>
+                <li> <a title="Youtube" href="https://www.youtube.com/" class="title__icon" target="_blank">
+                    <img class="title__img" src="img/unnamed.png" >
+                    <span class="title__text">Youtube</span>
+                </a>
+            </li>
+                <li> <a title="Naver" href="https://www.naver.com/" class="title__icon" target="_blank">
+                    <img class="title__img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAxzz///8AxjcAxCZQ0Gjc9N/m9+jR8dbQ9Ntp2YMAxjgAxCwAxTAAxTP7//3p+Osfy01R1HC068Hx/PTL8tVIz2O77cfF7ct/3pXX9d8Awx+L4aA70F+Y5KlJ0mqn6LcszVWh5rB024yH4Jtg2oBa1Xau6bwozVMQgS/cAAACxklEQVR4nO3c7W7aQBBG4Vm7QPGabwqBkBSSpr3/O6yUKi0EbK8NjTKvzvPbWnHixWInks0AAAAAAAAAAAAAAAAAAAAAAAAAQEORJ4kJS8WbrXRLxbdFP8FknjcuFVeTlJXWH5yYfQlphmXTUvnXpIV6zX+rm0ouHE+LhqW8F4Zl0010XxjuGhL9FzbtU/+FYbOtXUqgMNzXPugVCsMuq1lKonAzqllKojA81OxTjcLwWH0XRQr78oXhe+UHVCkMs6q7KFM4sYqfNjKFYV7xPNUprDoqChUuLu9TocKwuvgTXKkwPF3ap1KFF4+KUoVheeF5qlUY7s4TxQrH+7Ojolhh2JzdRLXC85GGXOHZSEOvsPfuJuoVhsNpomDhu6OiYmE/O/5po1h4OtKQLDzZp5qFx0dFzcLjkYZo4dFIQ7Xw3z5VLQzrt08sW/h3pKFb+DbS0C0My1y9MDxH9cLx61FRuTBsSvXC15GGdmHYZ+qF/VK9MByiemGYbdUL+87v4aT5ksPSdeGPRfM1CZd85sKXtOv8Fg63P9ULS0v4KrouHI0e1QstP6gXWt5XL8x26oUWH9QLrdyoF2a7sXihxWf1wtRjruPCwq7dp5+90Mon9UKLa/XCYpp2DvRbaOVQvdDyuXphMbpmn3ootNE1Iw0XhRavGGn4KCyy7kdFH4U2mqkXXjHS8FJoses+dVPYeaThptDivXqhld2Oio4KO440HBV2HGl4KrRt2n8MHRd2Gmm4Kuw00vBVaHGlXthhpOGssMNIw1th+5GGu8Iia7lP3RW2Pir6K2x7VHRYWBStjooOC1vuU4+FFg/qhRZ76oXZL/XCNiMNp4UtRhpeC7N96lHRa6HFO/VCyxNHGh9dWOx6gwSbl7r3ev5ZaZqy0GBQ9TK0/ybxjeWNgTd99zkAAAAAAAAAAAAAAAAAAAAAAAAACb8BlaxF0SY61+4AAAAASUVORK5CYII=" >
+                    <span class="title__text">Naver</span>
+                </a>
+            </li>
+                <li> <a title="fmkorea" href="https://www.fmkorea.com/" class="title__icon" target="_blank">
+                    <img class="title__img" src="https://ww.namu.la/s/a7671e7c265bfc3e676e065bb955a49725ebca8347c484a230edb26670276a86d98e0acae504df3fabaf9c0a454661ef19da0b1de5b519df00328856bcf6d35b53a01fb2e67809f7d075c9355e88881b" >
+                    <span class="title__text">에펨코리아</span>
+                </a>
+            </li>
+            <li> <a title="노마더코더" href="https://nomadcoders.co/" class="title__icon" target="_blank">
+                <img class="title__img" src="https://yt3.ggpht.com/ytc/AKedOLTUh5DI9RQkZcNRxzVqXMfyO2jB99F1k49ttgFbrA=s900-c-k-c0x00ffffff-no-rj" >
+                <span class="title__text">노마더코더</span>
+            </a>
+            </li>
+            </ul>
+           
+           
+           
+           
+            
+        </div>
+       </div>
+</main>
+
+
+    
+
+    
+
+    
+    <script src="js/today.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
