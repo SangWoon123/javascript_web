@@ -24,11 +24,11 @@
 
 #quote {
   font-style: italic;
-  color: white;
+  color: #f5b658;
   font-size: 18px;
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 1px 1px 1px grey;
   width: 850px;
-  height: 60px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +41,7 @@
 }
 
 #quote span:last-child {
+  color: wheat;
   font-size: 15px;
   margin-top: 3px;
 }
@@ -156,6 +157,8 @@
 }
 
 #todo-form input::placeholder {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
   text-align: center;
   color: whitesmoke;
 }
@@ -232,5 +235,5 @@
   border-radius: 8px;
   object-fit: contain;
   box-sizing: border-box;
-  background: rgb(30, 32, 41);
+  background: #ffb9d5;
 }
