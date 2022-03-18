@@ -223,8 +223,9 @@
 
 #main-box3 ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 14px;
+  color: black;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 18px;
 }
 
 #main-box3 .title__img {
