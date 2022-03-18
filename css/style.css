@@ -24,7 +24,7 @@
 
 #quote {
   font-style: italic;
-  color: #f5b658;
+  color: #fff7a9;
   font-size: 18px;
   text-shadow: 1px 1px 1px grey;
   width: 850px;
@@ -73,31 +73,37 @@
 #login-form input {
   border: none;
   background-color: transparent;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.623);
+  border-bottom: 1px solid #ffffff;
   height: 20px;
 }
 #login-form input::placeholder {
   text-align: center;
+  font-family: "Nunito", sans-serif;
   color: white;
 }
 #login-form input:last-child {
   cursor: pointer;
   border: none;
-  color: wheat;
+  font-family: "Nunito", sans-serif;
+  color: #fff7a9;
+  font-size: 15px;
 }
 #login-form input:focus {
-  color: wheat;
+  outline: none;
+  border-bottom: 1px solid #e83355;
+  transition: border-color 0.3s ease-in-out;
 }
 
 #clock {
   margin: 0;
+  cursor: pointer;
   font-size: 120px;
   font-family: "Roboto", sans-serif;
   transition: color 0.5s ease-in-out;
 }
 
 .clockColor {
-  color: #19a4cf;
+  color: #a883d6;
 }
 
 #greeting {
