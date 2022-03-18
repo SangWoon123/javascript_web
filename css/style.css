@@ -23,8 +23,9 @@
 }
 
 #quote {
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
   font-style: italic;
-  color: #fff7a9;
   font-size: 18px;
   text-shadow: 1px 1px 1px grey;
   width: 850px;
@@ -42,7 +43,6 @@
 }
 
 #quote span:last-child {
-  color: white;
   font-size: 15px;
   margin-top: 3px;
 }
