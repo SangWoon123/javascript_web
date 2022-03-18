@@ -49,3 +49,21 @@ const todaysQuote =quotes[Math.floor(Math.random()*quotes.length)];
 quote.innerText=todaysQuote.quote;
 author.innerText=todaysQuote.author;
 
+
+
+
+const colors=["#f3b6a8","#a982d7","#e73355","#fff7aa","#3b8db4","white","#4d4442"];
+
+const quoteClick=document.getElementById("quote");
+
+function handleClick(){
+    const todaysQuote =quotes[Math.floor(Math.random()*quotes.length)];
+    const backColor1=colors[Math.floor(Math.random()*colors.length)];
+    const backColor2=colors[Math.floor(Math.random()*colors.length)];
+    quote.innerText=todaysQuote.quote;
+    author.innerText=todaysQuote.author;
+    quoteClick.style.color=backColor1;
+    author.style.color=backColor2;
+
+}
+quote.addEventListener("click",handleClick);
