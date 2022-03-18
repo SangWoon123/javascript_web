@@ -28,7 +28,7 @@
   font-size: 18px;
   text-shadow: 1px 1px 1px grey;
   width: 850px;
-  height: 80px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,10 +38,11 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   background-color: #9fa09f56;
+  font-size: 20px;
 }
 
 #quote span:last-child {
-  color: wheat;
+  color: white;
   font-size: 15px;
   margin-top: 3px;
 }
@@ -109,7 +110,7 @@
 
 #weather {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 100;
   font-style: italic;
   font-size: 20px;
@@ -222,8 +223,9 @@
 
 #main-box3 ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 14px;
+  color: black;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 18px;
 }
 
 #main-box3 .title__img {
@@ -235,5 +237,5 @@
   border-radius: 8px;
   object-fit: contain;
   box-sizing: border-box;
-  background: #ffb9d5;
+  background: #dd769f;
 }
