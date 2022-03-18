@@ -50,7 +50,7 @@ quote.innerText=todaysQuote.quote;
 author.innerText=todaysQuote.author;
 
 
-
+/*<----------------------------------------------------------------------------------------------->*/ 
 
 const colors=["#f3b6a8","#a982d7","#e73355","#fff7aa","#3b8db4","white","#4d4442"];
 

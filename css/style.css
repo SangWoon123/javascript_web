@@ -102,10 +102,6 @@
   transition: color 0.5s ease-in-out;
 }
 
-.clockColor {
-  color: #a883d6;
-}
-
 #greeting {
   color: white;
   margin: 20px 0;
