@@ -13,9 +13,15 @@ function getClock(){
 getClock();
 setInterval(getClock,1000);
 
-function handleClockColor(){
-    clock.classList.toggle("clockColor");
+
+/*<----------------------------------------------------------------------------------------------->*/ 
+
+
+const color1=["#f3b6a8","#a982d7","#e73355","#fff7aa","#3b8db4","white","#4d4442"];
+
+function handleClickColor(){
+    const backColor3=color1[Math.floor(Math.random()*colors.length)];
+    clock.style.color=backColor3;
 }
 
-clock.addEventListener("click",handleClockColor);
-
+clock.addEventListener("click",handleClickColor);
